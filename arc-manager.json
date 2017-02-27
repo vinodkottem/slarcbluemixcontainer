@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 4,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "175f7571-3813-4796-bfa2-08d6f3494d29": "{\"id\":\"175f7571-3813-4796-bfa2-08d6f3494d29\",\"host\":\"134.168.34.39\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\",\"license-push\"],\"protocol\":\"http\",\"created\":1488211798758,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"sl-conatiner-test\",\"version\":null,\"port\":3001},\"processes\":{\"pids\":[{\"parentPid\":1,\"pid\":44,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"debugger\":{\"running\":false,\"port\":null},\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2017-02-27T16:12:10.059Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":2,\"serviceInstanceId\":1},{\"parentPid\":44,\"pid\":81,\"workerId\":2,\"listeningSockets\":[{\"addressType\":4,\"address\":\"0.0.0.0\",\"port\":3001}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"debugger\":{\"running\":false,\"port\":null},\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2017-02-27T16:13:35.734Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":3,\"serviceInstanceId\":1}]}}"
+    },
+    "LoadBalancer": {}
+  }
+}
